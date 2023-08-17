@@ -1,0 +1,83 @@
+/* seletor -> propriedade -> valor */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(14, 10, 10);
+}
+
+
+.title{
+     width: 100%;
+    text-align: center;
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow:#FFD700 0.1em 0.1em 0.2em
+}
+    
+
+    img{
+        width: 400px;
+        height: 500px;
+        padding: 10px;
+        position: relative;
+    }
+    #firstImage{
+        top: 50px;
+      
+    }
+    #contImg{
+        top: 100px;
+        position: relative;
+       }
+
+    h1{
+        color: #FFD700;
+        padding:20px ;
+        font-size: 30px;
+    }
+  
+   h2{
+    color: aliceblue;
+    padding:30px ;
+    font-size: 30px;
+    
+    
+   }
+    
+   h3{
+    color: aliceblue;
+    padding:20px ;
+    font-size: 30px;
+   }
+   h4{
+    color: aliceblue;
+    padding:30px ;
+    font-size: 30px;
+   }
+
+   section{
+    display: flex;
+   }
+
+  
+   
+   #img1{
+    width: 250px;
+    height: 400px;
+   }
+
+
+.imagens{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+   h5{
+    color: #FFD700;
+    padding:20px ;
+    font-size: 30px;
+}
